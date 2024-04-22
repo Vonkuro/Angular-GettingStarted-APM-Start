@@ -49,3 +49,8 @@ Code:
 ```
 npm install -g @angular/cli
 ```
+## Ecriture d'un Jenkinsfile
+Le jenkinsfile contient les étapes de build, de test unitaire, de packagaing et d'enregistrement de l'artifact sur le jenkins.
+### Problème de fin
+L'outil node n'est installé que pour utilisateur de l'host de jenkins qui n'est pas l'utiliseur utilisant Jenkins.
+Ainsi la pipeline ne peut pas lancer de commande npm
