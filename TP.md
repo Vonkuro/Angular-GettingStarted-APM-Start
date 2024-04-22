@@ -31,3 +31,21 @@ git checkout -b develop
 git push --set-upstream origin develop
 ```
 Répétition de l'opération pour les deux autres dépôts en conservant les codes sources adéquats.
+## Installation des outils de build
+### Node v14
+Installation de nvm sur linux
+Code:
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+Installation de node version 14
+Code:
+```
+nvm install 14
+nvm use 14
+```
+### Angular cli
+Code:
+```
+npm install -g @angular/cli
+```
